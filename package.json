@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thomromano/news-scraper/issues"
   },
-  "homepage": "https://github.com/thomromano/news-scraper#readme"
+  "homepage": "https://github.com/thomromano/news-scraper#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
