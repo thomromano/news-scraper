@@ -4,8 +4,9 @@ const bodyParser = require("body-parser");
 
 
 const cheerio = require("cheerio");
-var request = require("request");
+const request = require("request");
 
+const db = require("./models");
 
 const app = express();
 const PORT = process.env.PORT || 8080;
