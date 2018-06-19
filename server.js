@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 8080;
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(express.static("public"));
 
+const exphdb = require("express-handlebars");
 
 app.listen(PORT, function() {
     console.log("App running on port " + PORT + "!");
